@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1492531601656_1" label="Test" name="Test">
+<item elementID="=MyJavaExtension" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1492531477258_0" label="Window Working Set" name="Aggregate for window 1492531477257"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1492532068237_2" label="Window Working Set" name="Aggregate for window 1492532068237"/>
+<mruList name="Test"/>
+</workingSetManager>
