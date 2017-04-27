@@ -1,0 +1,46 @@
+/**
+ * 
+ */
+package main;
+
+import com.smartfoxserver.v2.core.SFSEventType;
+import com.smartfoxserver.v2.extensions.SFSExtension;
+
+
+import SFSEventHandler.LoginEventHandler;
+import RequestHandler.UserMsgHandler;
+
+
+/**
+ * @author UX303
+ *
+ */
+public class MyExtension extends SFSExtension
+{
+	/**
+	 *  {@inheritDoc}  
+	 */
+	public void init()
+	{
+		//TODO Auto-generated method stub
+		trace("!!FUCK!!");
+		
+		
+		this.addEventHandler(SFSEventType.USER_LOGIN, LoginEventHandler.class);
+		this.addRequestHandler("UserMsg", UserMsgHandler.class);
+		
+		
+		
+		
+		
+	}
+	
+	/**
+	 *  {@inheritDoc}
+	 */
+	public void destroy()
+	{
+		//TODO Auto-generated method stub
+		super.destroy();
+	}
+}

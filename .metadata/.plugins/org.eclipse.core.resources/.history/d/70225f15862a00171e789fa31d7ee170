@@ -1,0 +1,5 @@
+package sfs.event.handler;
+
+public class BuddyAddEventHandler {
+
+}
